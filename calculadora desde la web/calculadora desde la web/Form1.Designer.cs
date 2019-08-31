@@ -153,7 +153,7 @@
             this.botonc.Name = "botonc";
             this.botonc.Size = new System.Drawing.Size(53, 41);
             this.botonc.TabIndex = 14;
-            this.botonc.Text = "Ceeee";
+            this.botonc.Text = "eskeleeee";
             this.botonc.UseVisualStyleBackColor = true;
             // 
             // boton1
