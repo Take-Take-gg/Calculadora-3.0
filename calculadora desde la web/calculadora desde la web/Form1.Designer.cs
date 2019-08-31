@@ -34,6 +34,7 @@
             this.boton0 = new System.Windows.Forms.Button();
             this.boton8 = new System.Windows.Forms.Button();
             this.boton5 = new System.Windows.Forms.Button();
+            this.botonigual = new System.Windows.Forms.Button();
             this.botonmult = new System.Windows.Forms.Button();
             this.boton9 = new System.Windows.Forms.Button();
             this.boton6 = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.boton2 = new System.Windows.Forms.Button();
             this.botondiv = new System.Windows.Forms.Button();
             this.botondecimal = new System.Windows.Forms.Button();
-            this.botonigual = new System.Windows.Forms.Button();
             this.botonce = new System.Windows.Forms.Button();
             this.botonmenos = new System.Windows.Forms.Button();
             this.botonmas = new System.Windows.Forms.Button();
@@ -102,6 +102,15 @@
             this.boton5.Text = "5";
             this.boton5.UseVisualStyleBackColor = true;
             // 
+            // botonigual
+            // 
+            this.botonigual.Location = new System.Drawing.Point(261, 245);
+            this.botonigual.Name = "botonigual";
+            this.botonigual.Size = new System.Drawing.Size(53, 41);
+            this.botonigual.TabIndex = 9;
+            this.botonigual.Text = "=";
+            this.botonigual.UseVisualStyleBackColor = true;
+            // 
             // botonmult
             // 
             this.botonmult.Location = new System.Drawing.Point(261, 176);
@@ -144,7 +153,7 @@
             this.botonc.Name = "botonc";
             this.botonc.Size = new System.Drawing.Size(53, 41);
             this.botonc.TabIndex = 14;
-            this.botonc.Text = "C";
+            this.botonc.Text = "Ceeee";
             this.botonc.UseVisualStyleBackColor = true;
             // 
             // boton1
@@ -182,15 +191,6 @@
             this.botondecimal.TabIndex = 19;
             this.botondecimal.Text = ".";
             this.botondecimal.UseVisualStyleBackColor = true;
-            // 
-            // botonigual
-            // 
-            this.botonigual.Location = new System.Drawing.Point(261, 245);
-            this.botonigual.Name = "botonigual";
-            this.botonigual.Size = new System.Drawing.Size(53, 41);
-            this.botonigual.TabIndex = 9;
-            this.botonigual.Text = "=";
-            this.botonigual.UseVisualStyleBackColor = true;
             // 
             // botonce
             // 
@@ -269,6 +269,7 @@
         private System.Windows.Forms.Button boton0;
         private System.Windows.Forms.Button boton8;
         private System.Windows.Forms.Button boton5;
+        private System.Windows.Forms.Button botonigual;
         private System.Windows.Forms.Button botonmult;
         private System.Windows.Forms.Button boton9;
         private System.Windows.Forms.Button boton6;
@@ -278,7 +279,6 @@
         private System.Windows.Forms.Button boton2;
         private System.Windows.Forms.Button botondiv;
         private System.Windows.Forms.Button botondecimal;
-        private System.Windows.Forms.Button botonigual;
         private System.Windows.Forms.Button botonce;
         private System.Windows.Forms.Button botonmenos;
         private System.Windows.Forms.Button botonmas;
